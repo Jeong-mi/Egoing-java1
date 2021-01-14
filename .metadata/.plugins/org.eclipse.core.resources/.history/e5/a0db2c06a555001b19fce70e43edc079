@@ -1,0 +1,20 @@
+
+public class Casting {
+
+	public static void main(String[] args) {
+		
+		double a = 1.1;
+		double b = 1; //1.0
+		System.out.println(b);
+		
+		//int c = 1.1; 
+		
+		//double형을 int형으로 강제로 바꾸기
+		int d = (int) 1.1; 
+		System.out.println(d);
+		
+		double e = 1.1; 
+
+	}
+
+}

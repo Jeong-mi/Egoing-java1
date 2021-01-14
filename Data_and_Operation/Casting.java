@@ -1,0 +1,26 @@
+
+public class Casting {
+
+	public static void main(String[] args) {
+		
+		//정수->소수는 손실이 없기 때문에 자동으로 캐스팅
+		double a = 1.1;
+		double b = 1; //1.0
+		double b2 = (double)1; //1.0
+		System.out.println(b);
+		
+		//int c = 1.1; 
+		//소수->정수는 손실이 있기 때문에 강제로 캐스팅
+		//double형을 int형으로 강제로 바꾸기
+		double e = 1.1;
+		int d = (int) 1.1; 
+		System.out.println(d); //1
+		
+		 //1 to String
+		String f = Integer.toString(1);
+		System.out.println(f);
+		//변수의 값이 어떤 데이터타입인지를 알려줌
+		System.out.println(f.getClass());
+	}
+
+}
