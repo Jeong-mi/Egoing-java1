@@ -1,1 +1,0 @@
-syso 컨트롤 스페이스바를 누르면 자동완성으로 System.out.println()이 만들어진다.
